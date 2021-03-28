@@ -1,30 +1,36 @@
+body {
+    width: 800px;
+    padding-left: 50%;
+    margin: 0px;
+}
 #main {
     width: 800px;
-    background-image: url(img/fon_bg.jpg);
+    margin-left:-400px;
+    background-image: url(../img/fon_bg.jpg);
     background-repeat: repeat-y;
 }
 #header {
     width: 800px;
     height: 155px;
-    background-image: url(img/header.jpg);
+    background-image: url(../img/header.jpg);
     background-repeat: no-repeat;
 }
-#menul {
+#menu1 {
     width: 800px;
     height: 35px;
-    background-image: url(img/menul.jpg);
+    background-image: url(../img/menu1.jpg);
     background-repeat: no-repeat;
 }
 #menu2 {
     width: 800px;
     height: 36px;
-    background-image: url(img/menu2.jpg);
+    background-image: url(../img/menu2.jpg);
     background-repeat: no-repeat;
 }
-#menul {
+#menu3 {
     width: 800px;
     height: 72px;
-    background-image: url(img/menu3.jpg);
+    background-image: url(../img/menu3.jpg);
     background-repeat: no-repeat;
 }
 #reklama {
@@ -34,18 +40,18 @@
 #reklama_top {
     width: 263px;
     height: 67px;
-    background-image: url(img/reklama_top.jpg);
+    background-image: url(../img/reklama_top.jpg);
     background-repeat: no-repeat;
 }
 #reklama_text {
     width: 263px;
-    background-image: url(img/reklama_bg.jpg);
+    background-image: url(../img/reklama_bg.jpg);
     background-repeat: repeat-y;
 }
 #reklama_bottom {
     width: 263px;
     height: 35px;
-    background-image: url(img/reklama_bottom.jpg);
+    background-image: url(../img/reklama_bottom.jpg);
     background-repeat: no-repeat;
 }
 #content {
@@ -56,6 +62,6 @@
     clear: both;
     width: 800px;
     height: 28px;
-    background-image: url(img/footer.jpg);
+    background-image: url(../img/footer.jpg);
     background-repeat: repeat-x;
 }
